@@ -28,12 +28,12 @@ if os.path.exists("Internal"):
    load_dotenv("Internal")
 
 
-API_ID = int(getenv("API_ID", 0))
-API_HASH = getenv("API_HASH", None)
-BOT_TOKEN = getenv("BOT_TOKEN", None)
-STRING_SESSION = getenv("STRING_SESSION", None)
-MONGO_DB_URL = getenv("MONGO_DB_URL", None)
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", 0))
+API_ID = int(getenv("API_ID", ,"27271850"))
+API_HASH = getenv("API_HASH", "5757fd61c4bd95d7021ab6d8445fa4db")
+BOT_TOKEN = getenv("BOT_TOKEN", "6720409081:AAGAS9qGJpJ3z0Cqv4RrF3mLHLgnrvZIoM0")
+STRING_SESSION = getenv("STRING_SESSION", "BQGgIqoAGrvcEWVLZx_R2TvEuTq5-AGBH_YLMOQPvj43-UEPAdrPbfH8Cs-AFGHRc3lQ1usotVNhSJtMoAbT3Fkw5tdqC2fe5bpXEcbV-MacYWPExkTXGuAc6_12tjTCKQi2MK4cpSHlw8d1GhtlPLzfkwM9gawlMJOdndN2NTiKK5mGY60f_rEtTiDAjd0kh_9kD_0E2FVbd3RDf7-wFCkv7E0TqcAyX2I8wwV9uCqwKEYZvXew3nJ32BQp0bILrzVQoGDYcjMeqVUHsGPXoxgcXOnJpz7r2vJjvlk4_OOfpvE3x2nT-DEspPU-Zg_PGIF6JLFsH8Vv4zqNLqrFyb923t7bVQAAAAGaZt-4AA")
+MONGO_DB_URL = getenv("MONGO_DB_URL", "mongodb+srv://minhazan990:minhaz@cluster0.r2okalv.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", -1001842764318))
 
 
 # OPTIONAL VARIABLES
